@@ -24,8 +24,6 @@ import {
     IndexBar,
     IndexAnchor,
     NavBar,
-    IndexBar,
-    IndexAnchor,
     Image as VanImage,
 } from "vant"
 ;[
