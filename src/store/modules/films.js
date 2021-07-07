@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { getFilmInfo } from "@/api/films"
 
 export default {
@@ -23,14 +22,4 @@ export default {
             commit("getDetail", ret)
         },
     },
-=======
-
-
-export default {
-    state: {},
-    mutations: {},
-
-    // 异步
-    actions: {},
->>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
 }
