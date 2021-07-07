@@ -5,11 +5,7 @@
                 <i class="iconfont icon-geren1"></i>
                 <p>电影</p>
             </router-link>
-<<<<<<< HEAD
-            <router-link to="/cinemas" active-class="active" tag="li">
-=======
             <router-link to="/cinemas?nm=北京&id=1" active-class="active" tag="li">
->>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
                 <i class="iconfont icon-leimupinleifenleileibie"></i>
                 <p>影院</p>
             </router-link>
@@ -38,18 +34,12 @@ export default {}
     width: 100%;
     z-index: 999;
     ul {
-<<<<<<< HEAD
         width: 100%;
-=======
->>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
         display: flex;
         align-items: center;
         // padding: 0;
         li {
-<<<<<<< HEAD
             width: 100%;
-=======
->>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
             display: flex;
             flex-direction: column;
             justify-content: center;

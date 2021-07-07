@@ -1,11 +1,4 @@
 <template>
-    <div>我是影院页面</div>
-</template>
-
-<script>
-export default {}
-</script>
-<style lang="scss" scoped></style>
     <div id="box">
         <div :class="{ titile: true, active: show }">
             <mytitle></mytitle>
@@ -15,7 +8,6 @@ export default {}
         </div>
     </div>
 </template>
-
 <script>
 import mytitle from "@/views/cinemas/ui/titile.vue"
 import mymenu from "@/views/cinemas/ui/menu.vue"

@@ -11,7 +11,6 @@ import {
     Cell,
     Card,
     Search,
-    Toast,
     Icon,
     Swipe,
     SwipeItem,
@@ -21,11 +20,9 @@ import {
     List,
     Loading,
     Skeleton,
-    IndexBar,
     IndexAnchor,
     NavBar,
     IndexBar,
-    IndexAnchor,
     Image as VanImage,
 } from "vant"
 ;[
@@ -38,7 +35,6 @@ import {
     Calendar,
     Card,
     Search,
-    Toast,
     Icon,
     Swipe,
     SwipeItem,
