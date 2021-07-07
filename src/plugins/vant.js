@@ -1,6 +1,7 @@
 import Vue from "vue"
 
 import {
+    TreeSelect,
     Button,
     Tab,
     Tabs,
@@ -22,6 +23,10 @@ import {
     Skeleton,
     IndexBar,
     IndexAnchor,
+    NavBar,
+    IndexBar,
+    IndexAnchor,
+    Image as VanImage,
 } from "vant"
 ;[
     Button,
@@ -40,10 +45,13 @@ import {
     Grid,
     GridItem,
     List,
-    Loading,
-    Skeleton,
+    NavBar,
     IndexBar,
     IndexAnchor,
+    TreeSelect,
+    VanImage,
+    Loading,
+    Skeleton,
 ].forEach((item) => Vue.use(item))
 
 Vue.use(Lazyload, {

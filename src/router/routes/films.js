@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 电影路由模块
 export default [
     {
@@ -53,5 +54,12 @@ export default [
         path: "/city",
         component: () =>
             import(/*webpackChunkName: "city"*/ "@/views/films/ui/city"),
+=======
+// 首页路由模块
+export default [
+    {
+        path: "/films",
+        component: () => import(/*webpackChunkName: "films"*/ "@/views/films/index.vue"),
+>>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
     },
 ]

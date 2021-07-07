@@ -6,6 +6,7 @@
   "description": "",
   "glyphs": [
     {
+<<<<<<< HEAD
       "icon_id": "15838429",
       "name": "arrow-down",
       "font_class": "arrow-down",
@@ -41,6 +42,8 @@
       "unicode_decimal": 58891
     },
     {
+=======
+>>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
       "icon_id": "77153",
       "name": "新浪",
       "font_class": "xinlang",

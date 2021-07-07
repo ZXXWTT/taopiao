@@ -3,5 +3,6 @@ export default [
     {
         path: "/",
         redirect: "/films/nowPlaying",
+        component: () => import(/*webpackChunkName: "films"*/ "@/views/login/index.vue"),
     },
 ]

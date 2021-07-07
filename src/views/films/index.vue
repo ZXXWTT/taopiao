@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <van-skeleton title avatar :row="3" :loading="loading">
         <div>
             <pageNav></pageNav>
@@ -30,5 +31,12 @@ export default {
         this.$store.commit("films/toCity", this.$route.path)
     },
 }
+=======
+    <div>我是电影页面</div>
+</template>
+
+<script>
+export default {}
+>>>>>>> db11c0b9bb861b9f48ca87dcf07460772e5a73ce
 </script>
 <style lang="scss" scoped></style>

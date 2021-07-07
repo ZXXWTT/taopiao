@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <myfooter />
+        <myfooter v-show="isShow" />
 
         <router-view />
     </div>
@@ -11,6 +12,12 @@ import myfooter from "./components/common/myFoot/myFoot.vue"
 export default {
     components: {
         myfooter,
+    },
+
+    data() {
+        return {
+            isShow: true,
+        }
     },
 }
 </script>
