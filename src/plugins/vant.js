@@ -18,11 +18,11 @@ import {
     GridItem,
     Lazyload,
     List,
+    IndexBar,
     Loading,
     Skeleton,
     IndexAnchor,
     NavBar,
-    IndexBar,
     Image as VanImage,
 } from "vant"
 ;[
